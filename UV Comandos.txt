@@ -1,0 +1,6 @@
+uv init => inicia um projeto
+uv venv => inicia ambiente de desenvolvimento
+.\.venv\scripts\activate => iniciar ambiente de desenvolvimento
+uv add mcl[cli] => instalar pacote (CLI do MCP)
+uv run weather.py => rodar arquivo paython
+mcp dev weather.py => Rodar MCP em modo de desenvolvimento usando MCP inspector

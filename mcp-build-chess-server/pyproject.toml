@@ -1,0 +1,15 @@
+[project]
+name = "mcp-build-chess-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mcl[cli]>=0.0.6",
+    "mcp[cli]>=1.26.0",
+    "requests>=2.32.5",
+]
+
+
+[project.scripts]
+chess = "chess.server:main"
